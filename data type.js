@@ -85,7 +85,7 @@ bill = 10.25 + 3.99 + 7.15;
 tip = bill * 0.15;
 total = bill + tip;
 total = total.toFixed(2);
-console.log('the total is ${total}');
+console.log('the total is $' + total);
 
 /*
  * QUIZ REQUIREMENTS
@@ -102,5 +102,5 @@ let adjective1 = "amazing";
 let adjective2 = "fun";
 let adjective3 = "entertaining";
 let matlib
- matlib = " The Intro to JavaScript course is ${adjective1},james and jolia \n are so ${adjective2}.I cannot wait to work through rest of \n this ${adjective3} content"
+ matlib = " The Intro to JavaScript course is " + adjective1 +",james and jolia \n are so" + adjective2 +."I cannot wait to work through rest of \n this" + adjective3 +"content"
 
